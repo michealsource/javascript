@@ -48,17 +48,41 @@
 // console.log("always showing")
 
 
-let grade = 3
+// let grade = 3
 
-if (grade >= 70 && grade <= 100) {
-   console.log("A")
-}
-else if (grade >= 60 && grade < 70) {
-   console.log('B')
-}
-else if (grade >= 45 && grade < 60) {
-   console.log("C")
-}
-else {
-   console.log('F9')
+// if (grade >= 70 && grade <= 100) {
+//    console.log("A")
+// }
+// else if (grade >= 60 && grade < 70) {
+//    console.log('B')
+// }
+// else if (grade >= 45 && grade < 60) {
+//    console.log("C")
+// }
+// else {
+//    console.log('F9')
+// }
+
+// let i = 1
+
+// while (i < 10) {
+//    console.log("Promise" + i)
+//    i += 2;
+// }
+
+//  Write a program to generate a multiplicat table
+
+// take input from the user
+
+
+const num = prompt("Enter and a number to see the multiplication of it from 1 -12")
+
+let pro = 1
+
+while (pro <= 12) {
+   const answer = pro * num;
+
+   // DISPLAY ANSWER
+   console.log(`${num}  * ${pro} = ${answer}`)
+   pro++;
 }
